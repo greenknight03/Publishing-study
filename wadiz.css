@@ -1,0 +1,68 @@
+@charset 'utf-8';
+
+html, span, img, p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+ul, ol, a, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} 
+
+.container {
+  width: 65%;
+}
+.card-container {
+  width: 223px;
+  /* height: 262px; */
+}
+
+.card-img {
+  background-image: url(images/optimize.jpeg);
+  background-size: contain;
+  width: 223px;
+  height: 126px;
+}
+
+.progress-bar {
+  background: #00b2b2;
+  width: 223px;
+  height: 3px;
+  margin: 7px 3px 5px;
+
+}
+
+.funding-tit {
+  color: #2a2a2a;
+  font-size: 14px;
+  margin: 3px 3px;
+  line-height: 1.4;
+}
+
+.info {
+  font-size: 3px;
+  color: #90949C;
+  margin: 4px 3px;
+}
+
+.funding-desc {
+  font-size: 3px;
+  color: #90949C;
+  width: 223px;
+  margin-left: 3px;
+}
+
+.funding-remainingday {
+  margin-left: 90px;
+}
+
+.funding-container {
+  display: flex;
+  flex-wrap: wrap;
+}
