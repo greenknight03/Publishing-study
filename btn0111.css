@@ -8,15 +8,12 @@
   font-size: 30px;
 }
 
-.container {
-  display: flex;
-}
+.container {display: flex;}
 
-p {
-  margin-bottom: 30px;
-}
+p {margin-bottom: 30px;}
 
 input[type="checkbox"]{display:none}
+
 input[type="checkbox"] + label span{
   background-image: url(https://static.nid.naver.com/images/ui/myinfo/pc_check_off_24.png);
   display:inline-block;
