@@ -1,24 +1,5 @@
 @charset "utf-8";
 
-*{margin:0;padding:0}
-li{list-style:none}
-/* .check_wrap{width:500px;margin:50px auto} */
-
-input[type="checkbox"]{display:none}
-input[type="checkbox"] + label span{
-  background-image: url(https://static.nid.naver.com/images/ui/myinfo/pc_check_off_24.png);
-  display:inline-block;
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
-  background-size: 30px 30px;
-  margin-left: 30px;
-}
-input[type="checkbox"]:checked + label span{
-  background: url(https://static.nid.naver.com/images/ui/myinfo/m_chcek_on_s_20.png);
-  background-size:cover;
-}
-
 .checkbox-section {
   display: flex;
   flex-direction: column;
@@ -35,6 +16,21 @@ p {
   margin-bottom: 30px;
 }
 
+input[type="checkbox"]{display:none}
+input[type="checkbox"] + label span{
+  background-image: url(https://static.nid.naver.com/images/ui/myinfo/pc_check_off_24.png);
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-size: 30px 30px;
+  margin-left: 30px;
+}
+
+input[type="checkbox"]:checked + label span{
+  background: url(https://static.nid.naver.com/images/ui/myinfo/m_chcek_on_s_20.png);
+  background-size:cover;
+}
 
 
 
