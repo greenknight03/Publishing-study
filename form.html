@@ -2,61 +2,62 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
     <link rel="stylesheet" href="form.css">
-    <title>form태그</title>
+    <link rel="stylesheet" href="style/reset.css">
 </head>
+
 <body>
-  <div class="radio-button">
-    <p>1. 좋아하는 과목을 고르시오 (택1)</p>
-    <div class="container">
-        <div>
-            <input type="radio" id="html" name="subject">
-            <label for="html">HTML</label>
-        </div>
-        <div>
-            <input type="radio" id="css" name="subject">
-            <label for="css">CSS</label>
-        </div>
-        <div>
-            <input type="radio" id="javascript" name="subject">
-            <label for="javascript">Javascript</label>
-        </div>
-    </div>
-</div>
-<div class="checkbox-button">
-    <p>스터디할 과목을 고르시오.(다중선택 가능)</p>
-    <div class="container">
-        <div>
-            <input id="html" type="checkbox">
-            <label for="html">HTML</label>
-        </div>
-        <div>
-            <input id="css" type="checkbox">
-            <label for="css">CSS</label>
-        </div>
-        <div>
-            <input id="javascript" type="checkbox">
-            <label for="javascript">Javascript</label>
-        </div>
-        <div>
-            <input id="python" type="checkbox">
-            <label for="python">Python</label>
-        </div>
-        <div>
-            <input id="java" type="checkbox">
-            <label for="java">Java</label>
+    <div class="radio-section">
+        <p>1. 좋아하는 라면을 고르시오. </p>
+        <div class="container">
+            <div>
+                <input type="radio" id="jin-ramen" name="noodle">
+                <label for="jin-ramen">진라면</label>
+            </div>
+            <div>
+                <input type="radio" id="sin-ramen" name="noodle">
+                <label for="sin-ramen">신라면</label>
+            </div>
+            <div>
+                <input type="radio" id="guri-ramen" name="noodle">
+                <label for="guri-ramen">너구리</label>
+            </div>
         </div>
     </div>
-</div>
-<div class="file-button">
-    <p>파일을 첨부하세요.</p>
-    <div class="container">
-        <input id="file-upload" type="file-upload">
-        <label for="file-upload">이미지 업로드</label>
+    <div class="checkbox-section"> 
+        <p>2. 스터디할 과목을 고르시오.(다중선택 가능)</p>
+        <div class="container">
+            <div>
+                <input id="html" type="checkbox">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input id="css" type="checkbox">
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input id="javascript" type="checkbox">
+                <label for="javascript">Javascript</label>
+            </div>
+            <div>
+                <input id="python" type="checkbox">
+                <label for="python">Python</label>
+            </div>
+            <div>
+                <input id="java" type="checkbox">
+                <label for="java">Java</label>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="file-section">
+        <p>3. 파일을 첨부하세요.</p>
+        <div class="container">
+            <input id="file" type="file">
+            <label for="file">이미지 업로드</label>
+        </div>
+    </div>
 </body>
-</body>
-</html>
+
+

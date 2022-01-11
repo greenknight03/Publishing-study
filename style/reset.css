@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+* {
+  box-sizing: border-box;
+}
+
 html, body,  span, img {
   margin: 0;
   padding: 0;
