@@ -63,15 +63,15 @@
 .phrase {
   position: absolute;
   color: white;
-  top: 54%;
-  left: 38%;
+  top: 50%;
+  left: 40%;
   transform: translateX(-50%) translateY(-50%);
 }
 
 .phrase h2 {
-  font-size: 5em;
+  font-size: 5.5em;
   font-weight: 900;
-  line-height: 80px;
+  line-height: 92px;
 }
 
 .phrase p {
@@ -87,15 +87,14 @@
 .sns {
   width: 15%;
   position: absolute;
-  bottom: 10px;
-  left: 5px;
+  bottom: 45px;
+  left: 15px;
 }
 
 .sns-list {
   display: flex;
   justify-content: space-around;
-  margin: 8px;
-  padding: 5px;
+  margin: 45px;
 }
 
 .sns-list li a img {
