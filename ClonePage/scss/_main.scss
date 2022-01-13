@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+.logo-wrap a {padding: 27px;}
+
+.nav { display: flex;}
+
+.nav-bar {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.nav-bar::after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  bottom: 21px;
+}
+
+.nav-bar::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  bottom: 23px;
+}
+
+.logo-wrap {
+  position: fixed;
+  width: 100%;
+  background: #000;
+  height: 72px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 17px;
+  z-index: 10;
+
+}
+
+.logo-image {width: 142px; height: 22px;}
+
+.bg-img {
+  background: url(../images/mvis_01.jpg)no-repeat center center/cover;
+  height: 100vh;
+}
+
+.phrase {
+  position: absolute;
+  color: white;
+  top: 54%;
+  left: 38%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.phrase h2 {font-size: 5em;font-weight: 900;line-height: 80px;}
+
+.phrase p {font-size: 1.5em;margin-top: 25px;font-weight: 500;}
+
+.phrase strong {font-weight: 600;}
+
+.sns {
+  width: 15%;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+
+.sns-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+  padding: 5px;
+}
+// 페이스북 로고 정렬 안맞음 
+
+.sns-list li a img {
+  width: 50%;
+}
+
+.suggestion {
+  background: url(../images/business_02.jpg)no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
