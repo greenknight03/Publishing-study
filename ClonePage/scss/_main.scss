@@ -87,6 +87,63 @@
 
 .sns-list li a img {width: 50%;}
 
+.solution {
+  height: 100vh;
+  position: relative;
+}
+
+.solution h2 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.subtitle-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-box {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.rec-list {
+  display: flex;
+  flex-wrap: wrap;
+  // width: 67%;
+  margin: 0 auto;
+}
+
+.rec-list li {
+  background-color: #f6f6f6;
+  padding: 0px;
+  height: 162px;
+  margin: 15px;
+  width: 31%;
+}
+
+.subtitle-box .bar {
+  font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 600;
+    color: #000;
+    margin-top: revert;
+}
+
+.subtitle-box .bar::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 54%;
+  width: 60px;
+  height: 3px;
+  background: #000;
+}
+
 .suggestion {
   background: url(../images/business_02.jpg)no-repeat center center/cover;
   height: 100vh;
