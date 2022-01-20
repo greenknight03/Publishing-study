@@ -42,15 +42,15 @@ fieldset {
     /* border: width style color */ 
 }
 
-input[type="text"]::placeholder {
-    color:olive;
-    font-style:italic;
-}
+// input[type="text"]::placeholder {
+//     color:olive;
+//     font-style:italic;
+// }
 
-input[type="text"]:focus {
-    background-color:olive;
-    color:#fff;
-}
+// input[type="text"]:focus {
+//     background-color:olive;
+//     color:#fff;
+// }
 
 input[type="search"] {
     
